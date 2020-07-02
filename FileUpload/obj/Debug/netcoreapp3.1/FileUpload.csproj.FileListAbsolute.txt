@@ -11,7 +11,6 @@ C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUp
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.TagHelpers.output.cache
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.RazorCoreGenerate.cache
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -114,6 +113,7 @@ C:\Users\wills\source\repos\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\tr\Mic
 C:\Users\wills\source\repos\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\wills\source\repos\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\Razor\Views\Home\Done.cshtml.g.cs
-C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.csproj.CoreCompileInputs.cache
-C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\wills\source\repos\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\SendGrid.dll
+C:\Users\wills\source\repos\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\MailJetClient.dll
+C:\Users\wills\source\repos\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\MimeTypeMap.dll
+C:\Users\wills\source\repos\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\RestSharp.dll

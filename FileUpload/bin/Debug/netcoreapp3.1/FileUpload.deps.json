@@ -25,6 +25,7 @@
       "FileUpload/1.0.0": {
         "dependencies": {
           "Azure.Storage.Blobs": "12.4.4",
+          "MailJet.NET": "1.6.1",
           "Microsoft.Azure.Storage.Blob": "11.1.7",
           "Microsoft.Azure.Storage.Common": "11.1.7",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.3",
@@ -365,6 +366,33 @@
         },
         "compile": {
           "lib/netstandard2.0/Azure.Storage.Common.dll": {}
+        }
+      },
+      "MailJet.NET/1.6.1": {
+        "dependencies": {
+          "MediaTypeMap": "2.1.0",
+          "Newtonsoft.Json": "11.0.2",
+          "RestSharp": "105.2.3"
+        },
+        "runtime": {
+          "lib/net/MailJetClient.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        },
+        "compile": {
+          "lib/net/MailJetClient.dll": {}
+        }
+      },
+      "MediaTypeMap/2.1.0": {
+        "runtime": {
+          "lib/net40/MimeTypeMap.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net40/MimeTypeMap.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -855,6 +883,17 @@
         },
         "compile": {
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
+        }
+      },
+      "RestSharp/105.2.3": {
+        "runtime": {
+          "lib/net46/RestSharp.dll": {
+            "assemblyVersion": "105.2.3.0",
+            "fileVersion": "105.2.3.0"
+          }
+        },
+        "compile": {
+          "lib/net46/RestSharp.dll": {}
         }
       },
       "SendGrid/9.16.0": {
@@ -2902,6 +2941,20 @@
       "path": "azure.storage.common/12.4.3",
       "hashPath": "azure.storage.common.12.4.3.nupkg.sha512"
     },
+    "MailJet.NET/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7yh6U0+bMy4xhC2hPdWfFvtrU0lS52SOS3sCybpbLlcIP2p63R4t8E6XW+1+SCYlahmC0nn09zgVmt1AP/YbLA==",
+      "path": "mailjet.net/1.6.1",
+      "hashPath": "mailjet.net.1.6.1.nupkg.sha512"
+    },
+    "MediaTypeMap/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o0Q01zOu4AkaDDbOQdwCsWuOoXlPGzqyl1j8ABeZJy/xsMm1U96qv/qx2X8sfyZNBY+94OaAPYCHn/1D78/cGg==",
+      "path": "mediatypemap/2.1.0",
+      "hashPath": "mediatypemap.2.1.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -3104,6 +3157,13 @@
       "sha512": "sha512-qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
+    },
+    "RestSharp/105.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aR2Td2s7DUHSk+H3EdcJ7pAju3JLYUZMwWmkVNtiEl4pAQuQCnU218YMMAdPbTdw0PJnGqLwrJxWr1RdL4ADeQ==",
+      "path": "restsharp/105.2.3",
+      "hashPath": "restsharp.105.2.3.nupkg.sha512"
     },
     "SendGrid/9.16.0": {
       "type": "package",

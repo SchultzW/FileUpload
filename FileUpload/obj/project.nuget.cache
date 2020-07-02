@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "24Dv72lunJtNf1acBRbZhbmaPuwHxFSWbEKpqdKU6oo4+rgRQI9t/qkq4OIPf9JN+H9mitVNq+Z/mRRVI9bkoQ==",
+  "dgSpecHash": "Jxetcwp+1ar/a+8mEszaud2QSqLVezd0eb+FqfDECTr1Oa8vAgHN0K+1nBFBKwnVeQfep6IBp8hrhZ9hAv+H6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\wills\\source\\repos\\FileUpload\\FileUpload\\FileUpload.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wills\\.nuget\\packages\\azure.core\\1.2.2\\azure.core.1.2.2.nupkg.sha512",
     "C:\\Users\\wills\\.nuget\\packages\\azure.storage.blobs\\12.4.4\\azure.storage.blobs.12.4.4.nupkg.sha512",
     "C:\\Users\\wills\\.nuget\\packages\\azure.storage.common\\12.4.3\\azure.storage.common.12.4.3.nupkg.sha512",
+    "C:\\Users\\wills\\.nuget\\packages\\mailjet.api\\1.2.2\\mailjet.api.1.2.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\wills\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

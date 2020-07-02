@@ -116,3 +116,4 @@ C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Release\netcoreapp3.1\stat
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Release\netcoreapp3.1\FileUpload.dll
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Release\netcoreapp3.1\FileUpload.pdb
 C:\Users\wills\source\repos\FileUpload\FileUpload\obj\Release\netcoreapp3.1\FileUpload.genruntimeconfig.cache
+C:\Users\wills\source\repos\FileUpload\FileUpload\bin\Release\netcoreapp3.1\Mailjet.Client.dll

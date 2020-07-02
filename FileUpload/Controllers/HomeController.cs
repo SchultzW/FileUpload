@@ -15,6 +15,7 @@ using Azure.Storage.Sas;
 using UserDelegationKey = Azure.Storage.Blobs.Models.UserDelegationKey;
 using SendGrid;
 using SendGrid.Helpers.Mail;
+using Newtonsoft.Json.Linq;
 
 namespace FileUpload.Controllers
 {
@@ -92,21 +93,20 @@ namespace FileUpload.Controllers
         {
 
                  email = email.Trim();
-                string apiKey = config.GetSection("SENDGRID_API_KEY").Value;
-                SendGridClient client = new SendGridClient(apiKey);
-                string msg = ("<p>Your link is ready:" + url + "</p>" +
-                    "<p>It will expire 7 days from now</p>");
-                SendGridMessage mail = new SendGridMessage
-                {
-                    From = new EmailAddress("willschultz2@gmail.com"),
-                    Subject="Your Uploaded File",
-                    HtmlContent=msg
-                };
-                mail.SetOpenTracking(true);
-                mail.AddTo(email);
-                await client.SendEmailAsync(mail);
-            
-         
+            string apiKey = config.GetSection("SENDGRID_API_KEY").Value;
+            SendGridClient client = new SendGridClient(apiKey);
+            string msg = ("<p>Your link is ready:" + url + "</p>" +
+                "<p>It will expire 7 days from now</p>");
+            SendGridMessage mail = new SendGridMessage
+            {
+                From = new EmailAddress("willschultz2@gmail.com"),
+                Subject = "Your Uploaded File",
+                HtmlContent = msg
+            };
+            mail.SetOpenTracking(true);
+            mail.AddTo(email);
+            await client.SendEmailAsync(mail);
+     
         }
 
         private string SendSAS( CloudBlockBlob blob)
